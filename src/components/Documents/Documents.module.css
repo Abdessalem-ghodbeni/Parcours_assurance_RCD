@@ -1,0 +1,21 @@
+.displayFlex {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding: 0rem 2rem 5rem 2rem;
+}
+
+.centerItems {
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 80%;
+  margin: 1rem 0;
+}

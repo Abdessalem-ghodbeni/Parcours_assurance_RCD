@@ -1,0 +1,29 @@
+.headerContainer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  /* background: #ffe1e0; */
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  height: 70.5px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height, or 105% */
+  letter-spacing: 0.05em;
+  margin-left: 1rem;
+  color: #0d5259;
+}
+
+@media screen and (max-width: 992px) {
+  .headerContainer {
+    margin-left: 0rem;
+    padding: 0rem 1rem;
+  }
+  .title {
+    font-size: 16px;
+  }
+}

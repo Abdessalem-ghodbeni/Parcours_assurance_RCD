@@ -1,0 +1,75 @@
+.qualityBlock {
+  margin: 3rem 0;
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding: 0 3rem 1.7rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  padding: 4rem 0rem;
+}
+
+.card {
+  border: 2px solid #d2d2d2;
+  border-radius: 15px;
+  padding: 1rem 3rem !important;
+}
+
+.minusButton {
+  font-size: 18px;
+  color: #ff4e52;
+}
+
+.cardTip {
+  font-size: 12px;
+  color: #7b4343;
+}
+
+.cardLabel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.darkBlock {
+  width: 100%;
+  background-color: #ecf2f3;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+.rowContainerJustified {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 4rem;
+}
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.highltedBlock {
+  background: #ffe1e0;
+  border: 1px solid #e30613;
+  border-radius: 10px;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.label {
+  color: #292371;
+  font-size: 1rem !important;
+}
+
+.mutedText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 21px;
+  color: #7b4343;
+}

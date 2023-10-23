@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  mrp-frontend:
+    container_name: atrias-rcd-frontend_recette
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true

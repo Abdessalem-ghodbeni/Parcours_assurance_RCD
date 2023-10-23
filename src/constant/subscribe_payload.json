@@ -1,0 +1,38 @@
+{
+    "type_prospect": "prospect professionnel rc",
+    "gamme": "7932",
+    "prospect_data": {
+        "nom": "boussaffa",
+        "prenom": "test pro",
+        "ville": "tunis",
+        "adresse_mail": "rahmaboussaffa18@gmail.com",
+        "civilite": "",
+        "codepostal": 1145,
+        "streetname": "idk",
+        "mobile": "+21698245290",
+        "DN": "2001-02-18"
+    },
+    "RS": "Raison sociale",
+    "FJ": "EURL",
+    "num_siret": "159992",
+    "code_naf": "1552",
+    "objet_assure": {
+        "adresse_risque": "1",
+        "complement_adresse": "1",
+        "ville_risque": "1",
+        "cout": "1",
+        "idObject": "1",
+        "nbr_logement": "1",
+        "declaration": "1",
+        "type_construction": "1",
+        "destination": "1",
+        "piscine": "1",
+        "nombre_batiment": "1",
+        "surface": "1",
+        "pays": "1",
+        "code_post_risque": "1"
+    },
+    "data_fields": {
+        // EDITIQUE FIELDS
+    }
+}

@@ -1,0 +1,120 @@
+.label {
+  color: #292371;
+  font-size: 1rem !important;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.nestRowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mutedText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 21px;
+  color: #7b4343;
+}
+
+.labelnaf {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #000000;
+}
+
+.formContainer {
+  padding: 4rem 0rem;
+}
+
+.rowContainerHeader {
+  padding: 0 4rem;
+}
+
+.plus {
+  background: #e30613;
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 70.5px;
+  height: 70.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.minus {
+  background: #ffe1e0;
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rowContainerSites {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.minus span {
+  font-size: 2rem;
+  color: white;
+}
+
+.chechboxConfirm {
+  background: #ffe1e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 0rem 0rem;
+  margin: 0rem 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .rowContainer {
+    padding: 0 0.5rem;
+  }
+  .hiddenBlock {
+    display: none;
+  }
+  .rowContainerHeader {
+    padding: 0 0.5rem;
+  }
+  .rowContainerSites {
+    background: #ffffff;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 3rem 0.2rem 0 0.2rem;
+    margin-top: 2rem;
+  }
+  .btnTrash {
+    position: absolute;
+    margin-top: -4.4rem;
+    right: 5%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,127 @@
+.topBar {
+  width: 100%;
+  height: calc(100% - 22px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.logoStyle {
+  height: 85%;
+}
+
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.505);
+  z-index: 1000;
+}
+
+.stepperContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stepper {
+  width: 90%;
+}
+
+.contentStyle {
+  background-color: white;
+  width: 90%;
+  margin-top: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btnNext {
+  background-color: #cfefe9;
+  border: 1px solid #0d5259;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.7rem 2.4rem;
+  cursor: pointer;
+  color: #0d5259;
+}
+
+.btnPrevDisabled {
+  background-color: #b6b6b6;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.7rem 2.4rem;
+  cursor: not-allowed;
+  color: white;
+}
+
+.headerText {
+  width: 100%;
+  background-color: #db4537;
+  text-align: center;
+}
+
+.header {
+  background: url("../../assets/header_background.svg");
+  /* background-size: cover; */
+  height: 196px;
+}
+
+.btnPrev {
+  background-color: #ffc1bb;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.7rem 2.4rem;
+  cursor: pointer;
+  color: #db4537;
+}
+
+.btnRed {
+  background-color: rgba(253, 47, 47, 0.1);
+  border: 1px solid #fd2f2f;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.7rem 2.4rem;
+  cursor: pointer;
+  color: #fd2f2f;
+}
+
+.btnsHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.holder {
+  margin-top: 24;
+  width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+  .holder {
+    width: 100%;
+  }
+}
